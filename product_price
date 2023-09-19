@@ -1,0 +1,12 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    int product1, product2, product1_quantity, product2_quantity;
+    float product1_price, product2_price;
+    cin >> product1 >> product1_quantity >> product1_price;
+    cin >> product2 >> product2_quantity >> product2_price;
+
+
+        cout << "Valor a pagar: R$ " << (product1_quantity * product1_price) + (product2_quantity * product2_price)<<endl;
