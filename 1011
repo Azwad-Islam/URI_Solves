@@ -1,0 +1,11 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+int radious;
+double value;
+cin>> radious;
+value = (4.0/3 * 3.14159 * radious*radious*radious);
+cout<<"VOLUME = "<<fixed<<setprecision(3)<< value<<endl;
+return 0;
+}
