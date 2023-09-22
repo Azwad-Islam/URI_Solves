@@ -1,0 +1,22 @@
+#include <iostream>
+#include<iomanip>
+
+using namespace std;
+
+int main() {
+double a, b , c , pie=3.14159, tri , cir , trap , sqr , rect;
+cin>> a >> b >> c;
+tri = 0.5 * a * c;
+cir = pie * (c * c);
+trap = (a+b)/2*c;
+sqr = b*b;
+rect = a*b;
+cout<<fixed;
+cout<<setprecision(3)<<"TRIANGULO: "<<tri<<endl;
+cout<<setprecision(3)<<"CIRCULO: "<<cir<<endl;
+cout<<setprecision(3)<<"TRAPEZIO: "<<trap<<endl;
+cout<<setprecision(3)<<"QUADRADO: "<<sqr<<endl;
+cout<<setprecision(3)<<"RETANGULO: "<<rect<<endl;
+
+return 0;
+}
