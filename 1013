@@ -1,0 +1,16 @@
+#include <iostream>
+#include<iomanip>
+#include<math.h>
+
+using namespace std;
+
+int main() {
+int a,b,c,s,sum,maximum;
+
+cin>>a>>b>>c;
+sum = (a+b+abs(a-b))/2;
+maximum = (sum+c+abs(sum-c))/2;
+cout<<maximum<<" eh o maior"<<endl;
+
+return 0;
+}*
