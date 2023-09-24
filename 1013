@@ -13,4 +13,4 @@ maximum = (sum+c+abs(sum-c))/2;
 cout<<maximum<<" eh o maior"<<endl;
 
 return 0;
-}*
+}
